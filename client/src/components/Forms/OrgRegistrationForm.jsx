@@ -31,7 +31,7 @@ const OrgRegistrationForm = () => {
 
         try {
             console.log(formData.tanNumber);
-            const response = await axios.post(`http://localhost:5000/scholarship/api/register-organisation/${formData.tanNumber}`);
+            const response = await axios.post(`https://isp-vercel.vercel.app/scholarship/api/register-organisation/${formData.tanNumber}`);
             const responseData = response.data;
             console.log(responseData);
 
