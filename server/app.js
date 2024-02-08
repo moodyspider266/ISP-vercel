@@ -1,11 +1,11 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import studentRoute from "./routes/studentRoute.js";
-import scholarshipRoute from "./routes/scholarshipRoute.js";
-import instituteRoute from "./routes/instituteRoute.js";
-import aadharRoute from "./routes/aadharRoute.js";
-import incomeTaxRoute from "./routes/incomeTaxRoute.js";
+import studentRoute from "./src/routes/studentRoute.js";
+import scholarshipRoute from "./src/routes/scholarshipRoute.js";
+import instituteRoute from "./src/routes/instituteRoute.js";
+import aadharRoute from "./src/routes/aadharRoute.js";
+import incomeTaxRoute from "./src/routes/incomeTaxRoute.js";
 
 const app = express();
 const port = 5000;
